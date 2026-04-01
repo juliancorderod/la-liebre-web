@@ -13,33 +13,30 @@
 body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: Georgia, serif;
-  color: #fff;
-
-  /* ================================
-     BACKGROUND IMAGE
-  ================================ */
-  background-image: url('logos/LA-LIEBRE-simple fondo beige.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  font-family: "Agenda-Semibold";
+  color: #efe6dd;
+  background-color: #efe6dd;
 }
 
-/* ================================
-   TYPOGRAPHY
-================================ */
 p {
-  font-size: 3.5rem;
+  font-size: 150%;
   text-align: center;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px  1px 0 #000,
-    1px  1px 0 #000;
+  color: #14100f;
+  letter-spacing: 0.15em;
 }
 
-/* ================================
-   ADD YOUR STYLES BELOW
-================================ */
+img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 400px;
+}
+
+.igLogo {
+  width:2rem;
+  height:2rem;
+  filter: invert(4%) sepia(15%) saturate(825%) hue-rotate(325deg) brightness(99%) contrast(94%);
+}
