@@ -40,3 +40,21 @@ img {
   height:2rem;
   filter: invert(4%) sepia(15%) saturate(825%) hue-rotate(325deg) brightness(99%) contrast(94%);
 }
+
+.info-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 2px solid #14100f;
+  background-color: transparent;
+  color: #14100f;
+  font-size: 200%;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.info-button:hover {
+  background-color: #14100f;
+  color: #efe6dd;
+}
